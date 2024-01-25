@@ -1,14 +1,15 @@
 This repository contains an implementation of a Blog API using NodeJS, Typescript, and Prisma.
 
 ## Features
+
 - CRUD operations for Blog Posts and
 - Liking a Blog Post
 
 ## Installation
 
 1. Clone the repository
-2. Install dependencies by running `yarn install`
-3. Start the application by running `yarn start`
+2. Install dependencies by running `npm install`
+3. Start the application by running `npm start`
 
 ## Endpoints
 
@@ -22,22 +23,3 @@ The following endpoints are available:
 - `DELETE /posts/delete/:id`: Delete a Blog Post by ID
 - `DELETE /posts/deleteall`: Delete all Blog Posts
 - `POST /posts/like`: Like a Blog Post
-
-## Prerequisites
-
-To use this application, you will need the following:
-
-- NodeJS
-- NPM
-- Typescript
-- Prisma
-
-## Contributing
-
-If you find any bugs or issues with this repository, feel free to open an issue or submit a pull request.
-
-## Acknowledgements
-
-This project was developed as a demonstration of NodeJS, Typescript, and Prisma. To read the Article, see [this blog post](https://dev.to/joshtom/build-a-rest-api-with-prisma-node-js-and-typescript-36o).
-
-
